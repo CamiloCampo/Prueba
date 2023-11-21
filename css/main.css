@@ -1,0 +1,83 @@
+h1, h3 {
+    color: orange;
+    text-align: center;
+}
+h3{
+    font-size: 25px;
+}
+
+.b-img{
+    margin: 40px;
+    width: 350px;
+    height: 200px;
+    /* grosor color estilo(solid, dotted, doble) */
+    border: 4px black dotted;
+    /* desp-x desp-y redondeo color */
+    box-shadow: 4px 4px 4px gray;
+  
+}
+
+.ConImg{
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    width: 200px;
+    height: 50px;
+    background-color: #f1d8a3ce;
+    text-align: center;
+    border: 2px black solid;
+    color: black;
+    box-shadow: 2px 2px 2px gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+nav {
+    background-color: orange;
+    text-align: center;
+}
+
+nav a:hover{
+    color: white;
+    background-color: rgb(135, 213, 222);
+    border: 4px black dotted;
+}
+
+.parrafos{
+    display: flex;
+}
+
+.pf{
+
+    background-color: burlywood;
+    margin: auto 50px auto 50px ;
+    text-align: center;
+    font-size: 20px;
+    box-shadow:  4px 4px 4px gray ;
+    border-radius: 10px;
+}
+
+.tl{
+   
+    display: flex;
+    text-align: center;
+    margin: 20px;
+}
+
+.pf:hover{
+
+    transform: scale(1.15);
+    border: 4px black dotted;
+    background-color: rgb(135, 213, 222);
+    border-radius: 10px;
+}
+
+.separar{
+
+    border: 0.5px dashed;
+}
